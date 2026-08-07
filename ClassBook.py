@@ -13,11 +13,11 @@ class Book:
         else:
             return False
 
-# Create two books
+
 book1 = Book("Python Basics", "John Smith", 250)
 book2 = Book("Advanced Python", "Jane Doe", 450)
 
-# Test the methods
+
 print(book1.get_info())
 print("Is long?", book1.is_long())
 
